@@ -4,7 +4,7 @@ public class Main{
     public static void main(String[] args) {
         System.out.println("Hello world!");
         System.out.println("Dzień Dobry Polsko!");
-        double wylosowanaLiczba = Math.random()*10+1;
+        int wylosowanaLiczba = (int)(Math.random()*10+1); //rzutowanie
         System.out.println(wylosowanaLiczba);
     }
 }
@@ -23,4 +23,6 @@ public class Main{
   Są 2 typy w javie:
   proste - tylko wartość, z małej litery
   złożone - które mają własności i metody, z dużej litery
+
+  Rzutowanie - np. zmiana typu double na int
  */

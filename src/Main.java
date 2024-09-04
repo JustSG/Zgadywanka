@@ -1,9 +1,11 @@
-public class Main {
+public class Main{
     //Nazwa pliku i nazwa klasy muszą być takie same
     //Nazwa klasy muszą się zaczynać z dużej litery
     public static void main(String[] args) {
         System.out.println("Hello world!");
         System.out.println("Dzień Dobry Polsko!");
+        double wylosowanaLiczba = Math.random()*10+1;
+        System.out.println(wylosowanaLiczba);
     }
 }
 /*git init - puste reprezytorium
@@ -13,8 +15,12 @@ public class Main {
   git add . - dodaj wszystkie pliki do reprezytorium
   git commit -m "pusty projekt" - tworzy migawke o nazwie pusty projekt
   git log - aby sprawdzić commita
-  git remote add origin https://github.com/JustSG/Zgadywanka.git -
-  git push -u origin master -
+  git remote add origin https://github.com/JustSG/Zgadywanka.git - link do reprezytorium
+  git push -u origin master - dodaj do reprezytorium
 
-  menedżer poświadczeń
+  menedżer poświadczeń - aby usuwać zapisane hasła
+
+  Są 2 typy w javie:
+  proste - tylko wartość, z małej litery
+  złożone - które mają własności i metody, z dużej litery
  */
